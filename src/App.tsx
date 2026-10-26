@@ -2302,7 +2302,7 @@ function Assistant({
   )
 }
 
-function Notifications({ open, close }: { open: boolean close: () => void }) {
+function Notifications({ open, close }: { open: boolean; close: () => void }) {
   return (
     <aside className={`notification-panel ${open ? "open" : ""}`}>
       <div className="modal-head">
