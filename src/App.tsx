@@ -142,7 +142,7 @@ const paths: Record<IconName, React.ReactNode> = {
   ),
 }
 
-function Icon({ name, size = 18 }: { name: IconName size?: number }) {
+function Icon({ name, size = 18 }: { name: IconName; size?: number }) {
   return (
     <svg
       className="icon"
